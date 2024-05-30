@@ -9,3 +9,5 @@ Pin: origin packages.mozilla.org
 Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 
+echo 'Continua con la actualización de repositorios y la instalación de Firefox...'
+sudo ./Instalar_firefox_paso4.sh
