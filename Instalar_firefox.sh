@@ -7,7 +7,6 @@ sudo install -d -m 0755 /etc/apt/keyrings
 # Importa la clave del repositorio APT de Firefox:
 
 wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc > /dev/null
-If you do not have wget installed, you can install it with: sudo apt-get install wget
 
 # 35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3. El siguiente comando es para verificar la clave:
 
