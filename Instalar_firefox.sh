@@ -5,7 +5,7 @@
 
 sudo install -d -m 0755 /etc/apt/keyrings
 
-bash paso1.sh
+#bash paso1.sh
 
 
 
