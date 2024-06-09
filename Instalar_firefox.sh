@@ -20,5 +20,5 @@ Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 
 #Actualiza lista de paquetes e instala el paquete Firefox y el paquete de idioma español argentino
-sudo apt-get update && sudo apt-get install firefox
-sudo apt-get install firefox-l10n-fr
+sudo apt-get update && sudo apt-get install firefox -y
+sudo apt-get install firefox-l10n-fr -y
